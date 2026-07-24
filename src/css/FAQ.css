@@ -1,0 +1,40 @@
+.faq{
+    padding:80px;
+    background:#ffffff;
+    text-align:center;
+}
+
+.faq h2{
+    font-size:40px;
+    color:#0d1b2a;
+    margin-bottom:50px;
+}
+
+.faq-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.faq-card{
+    background:#f8fbff;
+    padding:25px;
+    border-radius:15px;
+    text-align:left;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.faq-card:hover{
+    transform:translateY(-5px);
+}
+
+.faq-card h3{
+    color:#00a8ff;
+    margin-bottom:10px;
+}
+
+.faq-card p{
+    color:#555;
+    line-height:28px;
+}

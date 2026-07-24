@@ -1,0 +1,47 @@
+.cta{
+    background:linear-gradient(135deg,#00a8ff,#0077cc);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.cta h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.cta p{
+    font-size:20px;
+    margin-bottom:35px;
+}
+
+.cta-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.register-btn,
+.login-btn{
+    padding:15px 35px;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.register-btn{
+    background:white;
+    color:#0077cc;
+}
+
+.login-btn{
+    background:#0d1b2a;
+    color:white;
+}
+
+.register-btn:hover,
+.login-btn:hover{
+    transform:scale(1.05);
+}

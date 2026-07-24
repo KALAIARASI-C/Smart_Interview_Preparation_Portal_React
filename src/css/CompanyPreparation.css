@@ -1,0 +1,58 @@
+.company-page{
+    min-height:100vh;
+    padding:80px;
+    background:#f8fbff;
+    text-align:center;
+}
+
+.company-page h1{
+    font-size:42px;
+    color:#0d1b2a;
+}
+
+.company-page p{
+    color:#666;
+    margin:15px 0 40px;
+    font-size:18px;
+}
+
+.company-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.company-box{
+    background:#ffffff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.company-box:hover{
+    transform:translateY(-8px);
+}
+
+.company-box h2{
+    color:#00a8ff;
+    margin-bottom:15px;
+}
+
+.company-box p{
+    margin-bottom:20px;
+}
+
+.company-box button{
+    padding:10px 22px;
+    border:none;
+    border-radius:8px;
+    background:#00a8ff;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.company-box button:hover{
+    background:#0077cc;
+}

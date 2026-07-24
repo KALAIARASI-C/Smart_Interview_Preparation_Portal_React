@@ -1,0 +1,44 @@
+.progress-page{
+    min-height:100vh;
+    padding:80px;
+    background:#f8fbff;
+    text-align:center;
+}
+
+.progress-page h1{
+    font-size:42px;
+    color:#0d1b2a;
+}
+
+.progress-page p{
+    color:#666;
+    margin:15px 0 40px;
+}
+
+.progress-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.progress-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.progress-card h2{
+    color:#00a8ff;
+    margin-bottom:20px;
+}
+
+.progress-card progress{
+    width:100%;
+    height:20px;
+}
+
+.progress-card p{
+    margin-top:15px;
+    font-weight:bold;
+}

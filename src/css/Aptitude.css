@@ -1,0 +1,48 @@
+.aptitude{
+    min-height:100vh;
+    padding:80px;
+    background:#f8fbff;
+    text-align:center;
+}
+
+.aptitude h1{
+    font-size:42px;
+    color:#0d1b2a;
+}
+
+.aptitude p{
+    color:#666;
+    margin:15px 0 40px;
+}
+
+.aptitude-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.aptitude-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.aptitude-card h2{
+    color:#00a8ff;
+    margin-bottom:15px;
+}
+
+.aptitude-card button{
+    margin-top:20px;
+    padding:12px 25px;
+    background:#00a8ff;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.aptitude-card button:hover{
+    background:#0077cc;
+}
